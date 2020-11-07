@@ -1,0 +1,51 @@
+.slider-wrapper{
+    margin-top: 100px;
+    position: relative;
+}
+
+
+#slider-left-btn{
+    position: relative;
+    right: 500px;
+    top: 90px;
+}
+
+#slider-right-btn{
+    position: relative;
+    left: 500px;
+    top: 90px;
+}
+
+.slider-center-wrapper{
+    position: absolute; 
+    width: 960px;
+    height: 450px;
+    overflow: hidden;
+}
+
+.slider-center{
+    position: absolute; 
+    height: 450px;
+    width: auto;
+    transition: all 0.3s;
+    left: 0px;
+}
+
+.custom-card{
+    margin: 15px;
+}
+
+.slider-card{
+    margin-right: 20px;
+    width: 200px;
+    height: 150px;
+    background-color: aqua;
+}
+
+
+.arrows{
+    margin: 15px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
